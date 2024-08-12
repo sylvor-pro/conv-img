@@ -10,17 +10,18 @@ export const config = {
   ],
   subTitle: "",
   author: "@ConvImg",
-  font: "font-anke",
   icon: "",
+  font: "font-anke",
   backColor: "#1F2937",
   backBlurLevel: 60,
   deviconValue: ["aarch64-plain"],
   aspect: "aspect-[16/9]",
   blur: 0,
+  logoPosition: "default",  
   blurTrans: 60,
-  logoPosition: "default",
-  fontSize: 40,
   authorFontSize: 25,
+  fontSize: 40,
+
 };
 
 export type Config = typeof config;
